@@ -12,7 +12,7 @@
 
 ## Screenshot
 
-![Calculator](https://i.ibb.co/jkCdxvw/calci.png)
+![Calculator](https://i.ibb.co/K0xTwt5/calci.png)
 
 ## Author
 
