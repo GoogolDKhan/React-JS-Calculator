@@ -10,6 +10,10 @@
 - [SASS](https://sass-lang.com/documentation/syntax)
 - [ReactJS](https://reactjs.org/docs/hello-world.html)
 
+## Screenshot
+
+![Calculator](https://i.ibb.co/jkCdxvw/calci.png)
+
 ## Author
 
 - [@Sarfaraz](https://www.github.com/GoogolDKhan)
