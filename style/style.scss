@@ -2,107 +2,115 @@ $button: #4d4d4d;
 
 /* latin */
 @font-face {
-    font-family: 'Share Tech Mono';
-    font-style: normal;
-    font-weight: 400;
-    src: url(https://fonts.gstatic.com/s/sharetechmono/v10/J7aHnp1uDWRBEqV98dVQztYldFcLowEF.woff2) format('woff2');
-    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  font-family: "Share Tech Mono";
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://fonts.gstatic.com/s/sharetechmono/v10/J7aHnp1uDWRBEqV98dVQztYldFcLowEF.woff2)
+    format("woff2");
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA,
+    U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215,
+    U+FEFF, U+FFFD;
 }
 
 @font-face {
-    font-family: 'Digital';
-    src: url('//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.eot');
-    src: url('//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.eot?#iefix') format('embedded-opentype'),
-        url('//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.woff2') format('woff2'),
-        url('//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.woff') format('woff'),
-        url('//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.ttf') format('truetype'),
-        url('//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.svg#Digital-7') format('svg');
+  font-family: "Digital";
+  src: url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.eot");
+  src: url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.eot?#iefix")
+      format("embedded-opentype"),
+    url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.woff")
+      format("woff"),
+    url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.ttf")
+      format("truetype"),
+    url("//db.onlinewebfonts.com/t/8e22783d707ad140bffe18b2a3812529.svg#Digital-7")
+      format("svg");
 }
 
 #app {
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 body {
-    background: white;
-    -webkit-touch-callout: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    -webkit-user-select: none;
-    user-select: none;
-    cursor: default;
+  background: white;
+  -webkit-touch-callout: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  cursor: default;
 }
 
 .calculator {
-    border: 2px solid #47476b;
-    padding: 5px;
-    background: black;
-    width: 320px;
-    position: relative;
+  border: 2px solid #47476b;
+  padding: 5px;
+  background: black;
+  width: 320px;
+  position: relative;
 }
 
 .formulaScreen {
-    min-height: 30px;
-    font-family: digital;
-    font-size: 30px;
-    color: violet;
-    text-align: right;
-    vertical-align: text-top;
-    line-height: 30px;
-    overflow-wrap: break-word;
-    word-wrap: break-word;
+  min-height: 30px;
+  font-family: digital;
+  font-size: 30px;
+  color: violet;
+  text-align: right;
+  vertical-align: text-top;
+  line-height: 30px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
 }
 
 .outputScreen {
-    font-size: 45px;
-    font-family: digital;
-    color: white;
-    text-align: right;
-    line-height: 50px;
+  font-size: 45px;
+  font-family: digital;
+  color: white;
+  text-align: right;
+  line-height: 50px;
 }
 
 button {
-    position: relative;
-    height: 65px;
-    width: 80px;
-    color: white;
-    outline: 1px solid black;
-    border: none;
-    background: $button;
-    font-family: Share Tech Mono, monospace;
-    font-size: 20px;
-    cursor: pointer;
+  position: relative;
+  height: 65px;
+  width: 80px;
+  color: white;
+  outline: 1px solid black;
+  border: none;
+  background: $button;
+  font-family: Share Tech Mono, monospace;
+  font-size: 20px;
+  cursor: pointer;
 
-    &:hover {
-        color: green;
-        outline: 0.05em solid green;
-        z-index: 3;
-    }
+  &:hover {
+    color: green;
+    outline: 0.05em solid green;
+    z-index: 3;
+  }
 }
 
 .jumbo {
-    width: 320px;
+  width: 320px;
 }
 
 .mini {
-    width: 160px;
+  width: 160px;
 }
 
 .equal {
-    width: 320px;
-    font-size: 65px;
+  width: 320px;
+  font-size: 65px;
 }
 
 .author {
-    text-align: center;
-    margin-top: 15px;
+  text-align: center;
+  margin-top: 15px;
 
-    a {
-        text-decoration: none;
-        color: maroon;
-        line-height: 26px;
-    }
+  a {
+    text-decoration: none;
+    color: maroon;
+    line-height: 26px;
+  }
 }
